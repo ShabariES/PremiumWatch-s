@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Watches</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #222;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            font-size: 15px;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        .nav-links li a:hover {
+            color: #007bff;
+        }
+        section {
+            padding: 3rem;
+            max-width: 1000px;
+            margin: 2rem auto;
+            background: #f9f9f9;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 3px solid #007BFF;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        p {
+            margin: 1.5rem 0;
+            line-height: 1.8;
+        }
+        footer {
+            background: #f1f1f1;
+            color: #333;
+            text-align: center;
+            padding: 1.5rem 0;
+            font-size: 1rem;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+        .gallery img {
+            width: 220px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+        .contact {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 15px;
+            margin-top: 2.5rem;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            background: #007BFF;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+            font-size: 1rem;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        .button:hover {
+            background: #0056b3;
+            transform: translateY(-3px);
+        }
+        .button:active {
+            transform: translateY(1px);
+        }
+        .testimonials {
+            margin-top: 3rem;
+        }
+        .testimonial {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+        .testimonial p {
+            font-style: italic;
+        }
+        .testimonial h4 {
+            margin-top: 1rem;
+            text-align: right;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Premium's</div>
+            <ul class="nav-links">
+                <li><a href="C:\Users\shanm\OneDrive\Desktop\EARTH\men.html" title="View Mens Watches">MENS</a></li>
+                <li><a href="C:\Users\shanm\OneDrive\Desktop\EARTH\wmen.html" title="View Womens Watches">WOMENS</a></li>
+                <li><a href="C:\Users\shanm\OneDrive\Desktop\EARTH\brand.html" title="Learn more about ">ABOUT</a></li>
+            </ul>
+            <div class="icons">
+                <span><i class='bx bx-search-alt-2'></i></span>
+                <span><i class='bx bx-user'></i></a></span>
+                <span><i class='bx bxs-shopping-bag-alt'></i></a></span>
+            </div>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Who We Are</h2>
+        <p>We are a team of watch enthusiasts dedicated to curating the finest timepieces from around the world. Our passion for craftsmanship and design drives everything we do.</p>
+        
+        <h2>Our Mission</h2>
+        <p>Our mission is to celebrate the art of watchmaking by offering a diverse collection of watches that combine tradition, innovation, and style.</p>
+        
+        <h2>Our Values</h2>
+        <p>We value precision, quality, and timeless elegance. These principles guide us in providing exceptional products and services to our customers.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="w11.jpg" alt="Classic Watch">
+            <img src="w2.jpg" alt="Modern Watch">
+            <img src="w3.jpg" alt="Luxury Watch">
+            <img src="w4.jpg" alt="Sport Watch">
+            <img src="w6.jpg" alt="Vintage Watch">
+            <img src="w7.jpg" alt="Vintage Watch">
+            <img src="w8.jpg" alt="Vintage Watch">
+            <img src="w5.jpg" alt="Vintage Watch">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact">
+            <h3>Get in Touch</h3>
+            <p>Email: premium@gmail.com</p>
+            <p>Phone: +91 6369035633</p>
+            <p>Address: 123 Watch Lane, Time City, Clockland</p>
+            <a href="mailto:info@watchenthusiasts.com" class="button">Email Us</a>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"The collection of watches is absolutely stunning. I found the perfect watch for my style!"</p>
+            <h4>- John Doe</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Exceptional quality and great customer service. Highly recommend!"</p>
+            <h4>- Jane Smith</h4>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Watch Enthusiasts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
